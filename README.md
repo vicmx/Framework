@@ -21,7 +21,7 @@ En programación nosotros diseñaremos nuestras clases de tal forma que represen
 Actualmente tenemos una gran cantidad de lenguajes en los cuales podemos implementar la **Programación Orientada a Objetos**, por ejemplo **Java**, **Ruby** o **Python** entre muchos otros más, pero en el que me centraré, será el de PHP, veamos un ejemplo:
 
 ## Utilizando PHP
-
+```PHP
     <?php
     
     Class Lapiz{
@@ -37,7 +37,7 @@ Actualmente tenemos una gran cantidad de lenguajes en los cuales podemos impleme
         }
     }
     ?>
-
+```
 Como observamos generamos una clase lápiz clase la cual cuenta con tres atributos y un método una clase bastante genérica a partir de esta clase podemos generar "n" cantidad de lápices.
 
 En programación a la creación **de un nuevo objeto** lo conoceremos como **instancia**, en esta nueva línea de código nosotros estamos instanciando un nuevo objeto de tipo lápiz:
