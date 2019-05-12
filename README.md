@@ -22,30 +22,38 @@ Actualmente tenemos una gran cantidad de lenguajes en los cuales podemos impleme
 
 ## Utilizando PHP
 ```PHP
-    <?php
+<?php
     
     Class Lapiz{
-    	//Atributos
-    	public $color;
-    	public $peso;
-    	public $tipo_punta;
-    	
+        //Atributos
+        public $color;
+        public $peso;
+        public $tipo_punta;
+        
         // Métodos
-        public function escribe($mensaje)
-        {
-    	    return $mensaje
+        public function escribe($mensaje){
+            return $mensaje;
         }
     }
-    ?>
+?>
 ```
 Como observamos generamos una clase lápiz clase la cual cuenta con tres atributos y un método una clase bastante genérica a partir de esta clase podemos generar "n" cantidad de lápices.
 
 En programación a la creación **de un nuevo objeto** lo conoceremos como **instancia**, en esta nueva línea de código nosotros estamos instanciando un nuevo objeto de tipo lápiz:
-
+```PHP
+<?php
     $lapiz = new Lapiz();
+?>
+```
 
 Y para llamar a un método (la acción), sería así:
 
+```PHP
+<?php
+    $lapiz = new Lapiz();
     $lapiz->escribe("Hola Mundo");
+?>
+```
+    
 
 Ya para concluir recordemos que una clase la podemos ver **como un molde** que nos sirve para **crear objetos** y **un objeto** lo podemos visualizar como una entidad la cual contiene **atributos** y **métodos**.
