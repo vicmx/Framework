@@ -18,7 +18,7 @@ Si nosotros quitamos todas estas diferencias lo que obtendremos será **un lápi
 
 En programación nosotros diseñaremos nuestras clases de tal forma que representen una y solo una cosa, esto hará que necesitemos muchas clases para nuestra aplicación cuando estemos trabajando con **el paradigma de Programación Orientada a Objetos**. Es innegable que saldrán a flote temas como **Herencia**, **Polimorfismo** o **Encapsulamiento** entre otros, pero de ellos ya hablaremos en otra ocasión.
 
-Actualmente tenemos una gran cantidad de lenguajes en los cuales podemos implementar la **Programación Orientada a Objetos**, por ejemplo **Java**, **Rubi** o **Python** entre muchos otros más, pero en el que me centraré, será el de PHP, veamos un ejemplo:
+Actualmente tenemos una gran cantidad de lenguajes en los cuales podemos implementar la **Programación Orientada a Objetos**, por ejemplo **Java**, **Ruby** o **Python** entre muchos otros más, pero en el que me centraré, será el de PHP, veamos un ejemplo:
 
 ## Utilizando PHP
 
